@@ -15,7 +15,7 @@
 <br><br>
 
 <p align="justify">
-Welcome to the Donation Collecting Website for MAB CORP, a non-profit organization dedicated to improving the lives of people in need. Our website is designed to make it easy for you to donate and support our cause, whether you're a regular donor or a first-time supporter.
+Welcome to the Donation Collecting Website for Help One, a non-profit organization dedicated to improving the lives of people in need. Our website is designed to make it easy for you to donate and support our cause, whether you're a regular donor or a first-time supporter.
 The home page of our website provides an overview of our foundation and our mission, along with a prominent call-to-action button inviting users to make a donation. We have also included information about our recent activities and success stories to give you an idea of how your donation can make a difference.
 <br><br>
 We have made it easy for you to donate to our foundation through our secure online donation form, which accepts donations of any amount. You can choose to make a one-time donation or set up a recurring donation, and you can also choose to donate to a specific cause or program within our foundation.
