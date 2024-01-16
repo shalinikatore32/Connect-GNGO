@@ -190,14 +190,17 @@ nav{
 .gallery-sec{
 	position: relative;
 	padding: 50px 0;
+    
 }
 
 .gallery-sec .image-container{
 	display: flex;
+
 	flex-wrap: wrap;
 	gap: 15px;
 	justify-content: center;
 	padding: 10px;
+    visibility: none;
 }
 
 .gallery-sec .image-container .image{
@@ -206,6 +209,7 @@ nav{
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 	overflow: hidden;
+    
 }
 
 .gallery-sec .image-container .image img{
@@ -214,6 +218,7 @@ nav{
 	border: 5px solid #d4d4d4;
 	object-fit: cover;
 	transition: 0.2s linear;
+    
 }
 
 .gallery-sec .image-container .image:hover img{
