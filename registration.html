@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NGO Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        margin: 40px 0 40px 0;
+        padding: 0;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        background-color: #e6f7ff;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+          "Helvetica Neue", Arial, sans-serif;
+      }
+
+      main {
+        background-color: white;
+        padding: 10px 40px 40px 40px;
+        display: block;
+        text-align: left;
+        max-width: 500px;
+        margin: auto;
+        border-radius: 10px;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 40px;
+        color: #002f6c;
+        font-weight: bold;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+      }
+
+      .form-group {
+        padding: 8px 0;
+        margin-bottom: 2px;
+      }
+
+      .form-group > label {
+        margin-bottom: 8px;
+        color: #191516;
+        display: block;
+      }
+
+      input,
+      select,
+      textarea {
+        outline: none;
+        width: 100%;
+        padding: 7px;
+        font-size: 16px;
+        border: 0.5px solid #002f6c;
+        background-color: white;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+      }
+
+      textarea {
+        height: 100px;
+        resize: vertical;
+      }
+
+      button {
+        width: 100%;
+        display: block;
+        height: 40px;
+        background-color: #191516;
+        border: none;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        box-sizing: border-box;
+        cursor: pointer;
+      }
+
+      @media (max-width: 460px) {
+        main {
+          max-width: 280px;
+        }
+        h1 {
+          font-size: 32px;
+        }
+        form {
+          font-size: 18px;
+        }
+        input,
+        select,
+        textarea {
+          font-size: 15px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1 id="title">NGO Registration Form</h1>
+        <p id="description">
+          Connect with us to make a positive impact!
+        </p>
+      </header>
+      <form id="ngo-form">
+        <div class="form-group">
+          <label for="name">NGO Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter NGO Name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="number">Contact Number</label>
+          <input
+            type="tel"
+            name="number"
+            id="number"
+            placeholder="Enter Contact Number"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="location">Location</label>
+          <input
+            type="text"
+            name="location"
+            id="location"
+            placeholder="Enter NGO Location"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="category">NGO Category</label>
+          <select name="category" id="category">
+            <option selected disabled value>Select NGO Category</option>
+            <option value="Education">Education</option>
+            <option value="Health">Health</option>
+            <option value="Environment">Environment</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="description">Description</label>
+          <textarea
+            name="description"
+            id="description"
+            placeholder="Tell us about your NGO and its mission..."
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
